@@ -1,0 +1,31 @@
+Ref1: https://www.youtube.com/watch?v=wiQ3CvLdjL8
+Ref2: https://www.youtube.com/watch?v=W9zTttHeoHk
+
+
+GitHub, Push to repo using authentification Token
+1) Generate your Token
+go to the profile 
+go to the setting
+go to the developper settings
+go to the personal access tokens
+go to Generate new token
+sign and Personal access token ---> give a name to your token ----> expiration date ---> select scopes ---> Generate token
+
+2) first method:
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yongasemtsou/Process_to_push_project_in_repo.git
+git push -u origin master
+Enter user name
+Enter password=Token generate
+
+second method
+Go back to git command or cmd
+- use cd as change directory and paste your path folder
+- run this command: git remote set-url origin https:// yongasemtsou: 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 @github.com/ yongasemtsou / Voice_Recognition.git 
+
+
+
